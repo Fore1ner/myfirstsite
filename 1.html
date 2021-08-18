@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title></title>
+        <style type="text/css">
+            .hromo
+            {
+                text-decoration: none;
+                display: inline-block;
+                 color: white;
+                 padding: 20px 30px;
+                 margin: 10px 20px;
+                 border-radius: 10px;
+                 font-family: 'Montserrat', sans-serif;
+                 text-transform: uppercase;
+                 letter-spacing: 2px;
+                 background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+                 background-size: 200% auto;
+                 box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+                 transition: .5s;   
+            }
+            #d1
+            {
+                height: 100px;
+                width: 100%;
+                font-size: 60px;
+                text-align: center;
+            }
+            body
+            {
+                background-color: #FFFFE0;
+
+            }
+            #d2
+            {
+                width: 600px;
+                margin-left: 20px;
+                float: left;
+                
+                
+            }
+            #d3 
+            {
+                
+                
+                float: right;
+            }
+            .button-50 {
+              appearance: button;
+              background-color: red;
+              background-image: none;
+              border: 1px solid #000;
+              border-radius: 4px;
+              box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+              box-sizing: border-box;
+              color: #fff;
+              cursor: pointer;
+              display: inline-block;
+              font-family: ITCAvantGardeStd-Bk,Arial,sans-serif;
+              font-size: 14px;
+              font-weight: 400;
+              line-height: 20px;
+              margin: 0 5px 10px 0;
+              overflow: visible;
+              padding: 12px 40px;
+              text-align: center;
+              text-transform: none;
+              touch-action: manipulation;
+              user-select: none;
+              -webkit-user-select: none;
+              vertical-align: middle;
+              white-space: nowrap;
+            }
+
+            .button-50:focus {
+              text-decoration: none;
+            }
+
+            .button-50:hover {
+              text-decoration: none;
+            }
+
+            .button-50:active {
+              box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+              outline: 0;
+            }
+
+            .button-50:not([disabled]):active {
+              box-shadow: #fff 2px 2px 0 0, #000 2px 2px 0 1px;
+              transform: translate(2px, 2px);
+            }
+
+            @media (min-width: 768px) {
+              .button-50 {
+                padding: 12px 50px;
+              }
+            a{
+                text-decoration-color: red;
+                font-style: normal;
+                color: white;
+
+            }
+            
+
+        </style>
+    </head>
+
+    <body>
+        <div class="hromo" id="d1">Site name</div>
+        <div id="d2">
+            
+        </div>
+        <div id="d3">
+            <img src="C:\Users\Егор\Desktop\Info\Без названия.png" id="img1"><br>
+            <button class="button-50" role="button" id="b1" onclick=""><a href="C:\Users\Егор\Desktop\Info\2.html">Next page</a></button>
+            
+
+        </div>
+
+    </body>
+
+    <script src="https://ex.nvg-group.com/libs/jquery/3.4.1/f.min.js"></script>
+    <script type="text/javascript">
+        var a = 0
+        
+        while (a<3000)
+        {
+           $('#d2').append('something ')
+           a = a +1
+        }
+
+        
+        
+    </script>
+</html>
+
